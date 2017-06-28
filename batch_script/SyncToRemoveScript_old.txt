@@ -1,0 +1,5 @@
+option batch abort
+option confirm off
+open sftp://ubuntu@ec2-52-64-241-192.ap-southeast-2.compute.amazonaws.com -hostkey="SHA256:xdEwlcRPpnOYZn+AZauWFu1luJVdVkbn9dQ9zoVLyOU=MD5:01:2f:87:a7:dc:fc:3a:bf:5c:f9:05:c3:db:74:a9:ed"
+put C:\Users\azl-ckim\Desktop\CK\E2E_Scanning\Zipped_Files\zipped_files_20170612_181311.zip.gpg /home/ubuntu/ScanningE2E/encrypted_files
+exit
